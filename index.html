@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>COVID-19 Live Tracker</h1>
+      <div class="content">
+        <h2><p>Total Confirmed: <span class ='red' id="totalConfirmed"></span></p></h2>
+       <p><span class='label'>Newly Confirmed: </span><span class='red'>+</span><span class ='red' id="newConfirmed"></span></p><br>
+        <h2><p>Total Deaths: </span><span class ='red' id="totalDeaths"></span></p></h2>
+        <p><span class='label'>New Deaths: </span><span class='red'>+</span><span class ='red' id="newDeaths"></span></p><br>
+
+        <h2><p>Total Recovered: <span class ='green' id="totalRecovered"></span></p></h2>
+        <p><span class='label'>Newly Recovered: </span><span class='green'>+</span><span class ='green' id="newlyRecovered"></span></p><br><br><br>
+        <p class='stats'>automatically updates every 15 minutes.</p>
+        <script src="main.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

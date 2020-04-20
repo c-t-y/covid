@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(224, 255, 247);
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: floralwhite;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(104, 104, 104);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.label {
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.red {
+    color: rgb(206, 24, 24);
+}
+
+.green {
+    color: rgb(0, 194, 26);
+}
+
+.stats {
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+}
